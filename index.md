@@ -2,8 +2,11 @@
 layout: topic
 topic: Index
 ---
-# Alle Topics
+# All Topics
+
 
 {% for topic in site.topics %}
-* [{{ topic.topic }}]({{ topic.url | prepend: site.github.url }})
+
+[{{ topic.topic }}]({{ topic.url | prepend: site.github.url }})
+
 {% endfor %}

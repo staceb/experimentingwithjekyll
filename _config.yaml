@@ -1,1 +1,11 @@
+collections:
+    topics:
+        output: true
+        permalink: /topics/:path/
 
+defaults:
+    -   scope:
+            path: ""
+            type: topics
+        values:
+            layout: topic
