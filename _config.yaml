@@ -3,9 +3,3 @@ collections:
         output: true
         permalink: /topics/:title/
 
-defaults:
-    -   scope:
-            path: ""
-            type: topics
-        values:
-            layout: topic
