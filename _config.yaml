@@ -10,4 +10,4 @@ defaults:
             layout: topic
             permalink: /topics/:path/
 
-repository: arbu/experimenting-with-jekyll4
+repository: staceb/experimentingwithjekyll
