@@ -1,7 +1,7 @@
 collections:
     topics:
         output: true
-        permalink: /topics/:path/
+        
 
 defaults:
     -   scope:
@@ -9,6 +9,6 @@ defaults:
             type: topics
         values:
             layout: topic
-
+        permalink: /topics/:path/
   
 
